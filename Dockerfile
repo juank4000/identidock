@@ -1,4 +1,4 @@
-FROM identidock_full
+FROM identidock-full
 #FROM python:3.4
 
 #Se agrega uWSGI a la lista de paquetes a instalar
