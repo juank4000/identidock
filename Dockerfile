@@ -9,9 +9,10 @@ COPY app /app
 COPY cmd.sh /
 
 EXPOSE 9090 9191
-USER uwsgi
 
 RUN chmod +x /cmd.sh
+
+USER uwsgi
 
 #Creamos un nuevo comando para ejecutar uWSGI
 CMD ["/cmd.sh"]
