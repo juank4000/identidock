@@ -9,10 +9,10 @@ COPY app /app
 COPY cmd.sh /
 
 EXPOSE 9090 9191
-#USER uwsgi
+USER uwsgi
 
 #Creamos un nuevo comando para ejecutar uWSGI
-CMD ["/cmd.sh"]
+CMD ["sudo /cmd.sh"]
 
 
 
