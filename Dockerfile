@@ -12,7 +12,7 @@ EXPOSE 9090 9191
 USER uwsgi
 
 #Creamos un nuevo comando para ejecutar uWSGI
-CMD ["sudo","/cmd.sh"]
+CMD ["sudo","/cmda.sh"]
 
 
 
