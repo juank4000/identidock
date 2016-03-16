@@ -1,5 +1,5 @@
 identidock:
-  image: identidock-full
+  build: .
   expose:
    - "9090"
   environment:
